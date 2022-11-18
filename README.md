@@ -1,7 +1,7 @@
 # Лабораторна робота **№4** (Операційні системи)
 <br>
 
-## Виконав студент **3** курсу **ІПЗ 1.2** - **Зубанич І.М**
+## Виконав студент **3** курсу **ІПЗ 1.2** - **Костюк Д.В**
 <br>
 
 ## **Тема:** Terraform.
@@ -11,7 +11,7 @@
 ![screenshot](/assets/Screenshot_0.png)
 
 ### **Хід роботи:**
-1) Установив Terraform на Ubuntu(20.04). Зареєструвався на AWS, де створив користувача, отримавши `access_key` i `secret_key` для того, щоб зв'язати **AWS** із **Terraform**.
+1) Установив Terraform на комп'ютер. Зареєструвався на AWS, де створив користувача, отримавши `access_key` i `secret_key` для того, щоб зв'язати **AWS** із **Terraform**.
 
 <br>
 
@@ -88,7 +88,7 @@
 `sudo systemctl enable apache2`<br>
 `echo "<h1>AWS Virtual Machine deployed with Terraform</h1></br><h2>Artem Mahey IPZ 2-1</h2>" | sudo tee /var/www/html/index.html`<br>
 
-Результат:
+Переходжу за посиланням: `http://3.126.103.52/`
 
 ![screenshot](/assets/Screenshot_14.png)
 
